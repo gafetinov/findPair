@@ -1,0 +1,49 @@
+body
+{
+    font: 15px Helvetica, Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+code
+{
+    background-color: #eee;
+    border-radius: 2px;
+    padding: 0 4px;
+}
+
+.gamefield
+{
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid #eee;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.cells
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 500px;
+}
+
+.cells > div
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #eee;
+    box-sizing: border-box;
+    overflow: hidden;
+}
